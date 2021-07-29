@@ -5,7 +5,7 @@ server:
     key-store-type: jks
     key-alias: aec
     key-password: password
-  port: 8443
+  port: 8180
   servlet:
     context-path: /aec-api-rest
 
