@@ -22,7 +22,7 @@ pipeline {
         stage('Checkout'){
             steps {
                 sh 'echo "---=--- Checkout ---=---"'
-                git branch: 'main', url: 'https://github.com/Mehenni76/simpleboot.git'
+                git branch: 'main', url: 'https://github.com/Mehenni76/gestion-signalement.git'
             }
         }
         stage('Compile'){
