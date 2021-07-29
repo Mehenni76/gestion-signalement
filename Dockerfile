@@ -1,5 +1,5 @@
 FROM openjdk:8-jre
 
-COPy *.jar myapp.jar
+COPY *.jar myapp.jar
 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/.urandom","-jar","/myapp.jar"]
