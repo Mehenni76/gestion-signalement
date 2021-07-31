@@ -30,6 +30,7 @@ import fr.eql.aec.service.MotifSignalementService;
 import fr.eql.aec.service.SignalementService;
 
 @RestController
+@CrossOrigin (origins = { "*"})
 @RequestMapping("/signalements")
 public class SignalementRestController {
 	@Autowired
